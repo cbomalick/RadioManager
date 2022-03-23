@@ -51,6 +51,7 @@ if (isset($_GET['id'])) {
             switch($page){
                 default:
                     require_once('layout/homepage.inc.php');
+                    require_once('layout/requestform.inc.php');
                 break;
 
                 case"playlist":

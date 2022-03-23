@@ -2,7 +2,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
   color: #6c717f;
-  background-image: linear-gradient(141deg, #06C2F8 0%, #D34FB9 75%);
+  background-image: linear-gradient(180deg, rgba(201,213,234,1) 0%, rgba(0,102,153,1) 70%, rgba(6,66,115,1) 100%);
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 .panel {
 	display: inline-block;
 	padding: 15px;
-  background-color: #FFFFFF;
+  background-color: #e3f0f2;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   width: 50%;
   height: 65%;
@@ -22,7 +22,7 @@ body {
 
 .panel input {
   outline: 0;
-  background: #f2f2f2;
+  background: #c7d5df;
   width: 100%;
   border: 0;
   margin: 4px;
@@ -34,7 +34,7 @@ body {
 
 .panel select {
   outline: 0;
-  background: #f2f2f2;
+  background: #c7d5df;
   width: 100%;
   border: 0;
   margin: 4px;
@@ -46,7 +46,7 @@ body {
 
 .panel textarea {
   outline: 0;
-  background: #f2f2f2;
+  background: #c7d5df;
   width: 100%;
   border: 0;
   margin: 4px;
@@ -86,17 +86,12 @@ ul {
 }
 
 .request {
-  background: #AB8BD9;
-  width: 100%;
-}
-
-.request {
-  background: #AB8BD9;
+  background: #064273;
   width: 100%;
 }
 
 .request:hover,.button:active,.button:focus {
-  background: #8861BF;
+  background: #1da2d8;
 }
 
 .approve {
@@ -245,7 +240,7 @@ input {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #AB8BD9;
+  background-color: #064273;
 }
 
 .navigation li {
@@ -262,11 +257,11 @@ input {
 }
 
 .navigation li a:hover:not(.active) {
-  background-color: #8861BF;
+  background-color: #1da2d8;
 }
 
 .navigation .active {
-  background-color: #6B41A6;
+  background-color: #1da2d8;
 }
 
 .navigation .nav-right{
